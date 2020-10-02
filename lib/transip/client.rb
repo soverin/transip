@@ -290,4 +290,7 @@ module Transip
     API_SERVICE = 'ForwardService'
   end
 
+  class DnsClient < Client
+    API_SERVICE = 'DnsService'
+  end
 end
