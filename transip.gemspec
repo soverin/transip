@@ -19,11 +19,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency('savon', '>= 2.3.0')
   spec.add_dependency('curb', '>= 0.8.4')
   spec.add_dependency('activesupport', '>= 3.0.0')
-
-  spec.extra_rdoc_files = [
-    "MIT-LICENSE",
-    "README.rdoc"
-  ]
-  spec.has_rdoc       = true
-  spec.rdoc_options   = ["--charset=UTF-8"]
 end
