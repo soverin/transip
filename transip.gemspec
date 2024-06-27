@@ -16,7 +16,8 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.require_paths = ["lib"]
 
-  spec.add_dependency('savon', '>= 2.3.0')
-  spec.add_dependency('curb', '>= 0.8.4')
+  spec.add_dependency('savon', '>= 2.15.0')
+  spec.add_dependency('httpi', '>= 4.0.0')
+  spec.add_dependency('curb', '>= 0.9.7')
   spec.add_dependency('activesupport', '>= 3.0.0')
 end
